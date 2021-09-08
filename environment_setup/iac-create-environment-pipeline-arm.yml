@@ -15,7 +15,8 @@ pr:
       - environment_setup/arm-templates/*
 
 pool:
-  vmImage: "ubuntu-latest"
+  #vmImage: "ubuntu-latest"
+  name: vmss-build-agent
 
 variables:
   - group: devopsforai-aml-vg
